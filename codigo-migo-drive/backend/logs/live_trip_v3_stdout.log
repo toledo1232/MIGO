@@ -1,0 +1,398 @@
+INFO:     127.0.0.1:49672 - "GET /api/v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64912 - "GET /api/v1/auth/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:64913 - "GET /api/v1/auth/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:64912 - "POST /api/v1/auth/refresh HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64913 - "POST /api/v1/auth/refresh HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60758 - "GET /api/v1/places/autocomplete?input=monterre&lat=-9.52779&lng=-77.52778 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60760 - "GET /api/v1/places/autocomplete?input=monterrey&lat=-9.52779&lng=-77.52778 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60775 - "GET /api/v1/places/photon%3AeyJsYWJlbCI6Ik1vbnRlcnJleSwgSW5kZXBlbmRlbmNpYSwgSHVhcmF6LCBBbmNhc2gsIDAyNjkwLCBQZXLDuiIsImxhdGl0dWRlIjotOS40NzE1NTAzLCJsb25naXR1ZGUiOi03Ny41Mzc3MTE4fQ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60842 - "POST /api/v1/ride-requests HTTP/1.1" 201 Created
+INFO:     127.0.0.1:60847 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60851 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60853 - "POST /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063/accept HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60878 - "POST /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063/driver-location HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60879 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60888 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60911 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60922 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60928 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60934 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60915 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60948 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60952 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60959 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60967 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60977 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60979 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60988 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61003 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60993 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61006 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61016 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61021 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61035 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61037 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61046 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61051 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61068 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61069 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61080 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61085 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61098 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61100 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61107 - "POST /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063/arrived HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61109 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61115 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61114 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61132 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61140 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61142 - "POST /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61147 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61148 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61160 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61078 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61082 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61099 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61130 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61135 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61151 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61161 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61176 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61180 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61917 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61924 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63031 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63043 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56127 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63047 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:56131 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:56141 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56148 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:56157 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62004 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62008 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62019 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62030 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62042 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62048 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62051 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62061 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62073 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62077 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62092 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62096 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62106 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62110 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62119 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62123 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62136 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62147 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62152 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62162 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62173 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62177 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62189 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62191 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62202 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62209 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62221 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62223 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62234 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62238 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62253 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62259 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62272 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62278 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62289 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62291 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62303 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61226 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61248 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61254 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61237 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61260 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61266 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61277 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61281 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61291 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61293 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61304 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61308 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61321 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61323 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61334 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61338 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61348 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61350 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61366 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61381 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61383 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61392 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61398 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61407 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61413 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61422 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61427 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:58001 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58007 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:58016 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58020 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63243 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63259 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63263 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62312 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62325 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62329 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62339 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62343 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62352 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62364 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62367 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62370 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62383 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59703 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59709 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:59718 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59731 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59744 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59748 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:59756 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59762 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:59771 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59775 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:59787 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59788 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:59802 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59806 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:59814 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59820 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:59831 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59838 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:59849 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59854 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:53219 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60092 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60103 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60114 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60119 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63758 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60113 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63772 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63785 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63790 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63799 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63803 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63813 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63817 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63828 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63831 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63844 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63851 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63859 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63862 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63875 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63879 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63889 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63895 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63903 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63911 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63918 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63923 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63933 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63945 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63951 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63959 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63963 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63977 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63980 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63991 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63995 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:64004 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64007 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:64017 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64022 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:64037 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64038 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:64048 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64055 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:64065 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64068 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:64078 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64083 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:64092 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64097 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:64106 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64120 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64123 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:64133 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64147 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64138 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:64158 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:64162 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64166 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:49761 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65047 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58213 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65037 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:65051 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:58232 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63664 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63676 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63679 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60546 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60566 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60580 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60584 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60569 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60594 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60600 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60608 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60624 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60626 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60639 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60651 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60653 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60665 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60669 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60684 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60688 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60700 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55548 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:55558 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55559 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:55572 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55576 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:52344 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52356 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52360 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:52367 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62015 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62027 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62031 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62041 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62043 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62056 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62068 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62070 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62072 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62085 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62095 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62097 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62110 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62114 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:62128 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62130 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:52017 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52024 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:52032 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52034 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60732 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60736 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60744 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60758 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60762 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60773 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60787 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60791 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60775 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60800 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60804 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60817 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60823 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61400 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61402 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61416 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61420 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61429 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61430 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61444 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61448 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61456 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61459 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61472 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61476 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61486 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61487 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61501 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61505 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61515 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61529 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61533 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61543 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61544 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61571 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61572 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61586 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61600 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61601 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61613 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61626 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61627 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61641 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61645 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61653 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61656 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61668 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61674 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61683 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61697 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61701 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61710 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61703 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61724 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61728 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61741 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61743 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61757 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61768 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61783 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61794 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61797 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61809 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61813 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63566 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63570 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:55218 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55219 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:55233 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55238 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:52406 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52407 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:52421 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53699 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61937 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:52425 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:50561 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50565 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:50576 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50591 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50579 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:50597 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:55317 - "GET /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64516 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:51595 - "POST /api/v1/ride-requests/302c0dc0-5396-4aaa-9e38-efe856f13063/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51674 - "GET /api/v1/places/autocomplete?input=INTERBA&lat=-9.5294533&lng=-77.5291567 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51681 - "GET /api/v1/places/autocomplete?input=INTERBANK&lat=-9.5294533&lng=-77.5291567 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51688 - "GET /api/v1/places/photon%3AeyJsYWJlbCI6IkludGVyYmFuaywgSmlyw7NuIEpvc8OpIEFudG9uaW8gZGUgU3VjcmUsIEh1YWNhcGFtcGEsIFVyYmFuaXphY2nDs24gQmVsw6luLCBIdWFyYXosIEFuY2FzaCwgMDIwMDAsIFBlcsO6IiwibGF0aXR1ZGUiOi05LjUyOTMxMzYsImxvbmdpdHVkZSI6LTc3LjUyODUzOTR9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51716 - "POST /api/v1/ride-requests HTTP/1.1" 201 Created
+INFO:     127.0.0.1:51722 - "GET /api/v1/ride-requests/6d5884eb-9f5a-4d59-b476-e715e71913ce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60340 - "POST /api/v1/ride-requests/6d5884eb-9f5a-4d59-b476-e715e71913ce/counter HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60343 - "GET /api/v1/ride-requests/6d5884eb-9f5a-4d59-b476-e715e71913ce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60026 - "POST /api/v1/ride-requests/6d5884eb-9f5a-4d59-b476-e715e71913ce/counter/accept HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60055 - "POST /api/v1/ride-requests/6d5884eb-9f5a-4d59-b476-e715e71913ce/driver-location HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60059 - "GET /api/v1/ride-requests/6d5884eb-9f5a-4d59-b476-e715e71913ce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60056 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60061 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60092 - "GET /api/v1/ride-requests/6d5884eb-9f5a-4d59-b476-e715e71913ce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60107 - "POST /api/v1/ride-requests/6d5884eb-9f5a-4d59-b476-e715e71913ce/arrived HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60111 - "GET /api/v1/ride-requests/6d5884eb-9f5a-4d59-b476-e715e71913ce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60109 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60113 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60124 - "GET /api/v1/ride-requests/6d5884eb-9f5a-4d59-b476-e715e71913ce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60131 - "POST /api/v1/ride-requests/6d5884eb-9f5a-4d59-b476-e715e71913ce/start HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60135 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:60134 - "POST /api/v1/routes/compute HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:50323 - "GET /api/v1/ride-requests/6d5884eb-9f5a-4d59-b476-e715e71913ce HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50324 - "POST /api/v1/ride-requests/6d5884eb-9f5a-4d59-b476-e715e71913ce/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50332 - "GET /api/v1/ride-requests/6d5884eb-9f5a-4d59-b476-e715e71913ce HTTP/1.1" 200 OK

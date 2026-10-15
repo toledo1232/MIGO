@@ -1,0 +1,101 @@
+
+====================================================================================================
+MIGO - V13A DIAGNÓSTICO DE RENDIMIENTO (SOLO LECTURA)
+====================================================================================================
+1/8 PROTECCIÓN
+Flutter                       = NO SE MODIFICA
+FastAPI                       = NO SE MODIFICA
+Base de datos                 = NO SE MODIFICA
+APK                           = NO SE INSTALA
+Llamadas / chat / SOS         = NO SE TOCAN
+Cancelaciones / créditos      = NO SE TOCAN
+
+====================================================================================================
+2/8 LATENCIA FASTAPI
+====================================================================================================
+FastAPI muestras              = 20
+FastAPI fallos                = 0
+Latencia promedio             = 24.5 ms
+Latencia P95                  = 66.7 ms
+Latencia máxima               = 96.9 ms
+
+====================================================================================================
+3/8 EMULADORES: RED, MEMORIA Y RENDERIZADO
+====================================================================================================
+
+[emulator-5554]
+Ping a FastAPI host promedio  = 3.2 ms
+Ping a FastAPI host máximo    = 4.8 ms
+RAM app PSS aprox.            = N/D
+Frames con tirones            = N/D
+
+[emulator-5556]
+Ping a FastAPI host promedio  = 2.8 ms
+Ping a FastAPI host máximo    = 4.1 ms
+RAM app PSS aprox.            = N/D
+Frames con tirones            = N/D
+
+====================================================================================================
+4/8 ESCANEO DEL CÓDIGO DE GPS / MAPA / RUTA
+====================================================================================================
+getCurrentPosition            = 3
+getPositionStream             = 2
+Timer.periodic                = 7
+setState                      = 145
+Polyline                      = 3
+GoogleMap                     = 3
+WebSocket                     = 12
+route_http                    = 1
+distanceFilter                = 2
+intervalDuration              = 0
+locationAccuracy              = 5
+
+Archivos relevantes:
+- lib\features\shared\live_trip_support.dart | setState=0 GPSstream=0 GPSonce=0 routeRefs=1 timers=0 distanceFilter=[] interval=[]
+- lib\features\shared\live_trip_tools.dart | setState=26 GPSstream=0 GPSonce=0 routeRefs=0 timers=1 distanceFilter=[] interval=[]
+- lib\features\passenger\live_trip\passenger_live_trip_screen.dart | setState=25 GPSstream=1 GPSonce=1 routeRefs=0 timers=1 distanceFilter=['3'] interval=[]
+- lib\features\driver\live_trip\driver_live_trip_screen.dart | setState=28 GPSstream=1 GPSonce=1 routeRefs=0 timers=1 distanceFilter=['3'] interval=[]
+
+====================================================================================================
+5/8 ESTADO FLUTTER
+====================================================================================================
+flutter analyze               = OK
+
+====================================================================================================
+6/8 DIAGNÓSTICO AUTOMÁTICO
+====================================================================================================
+- BIEN: FastAPI local no parece ser el cuello de botella principal.
+- REVISAR: hay GPS por stream junto con muchos setState; si cada coordenada reconstruye toda la pantalla/mapa puede generar tirones.
+- REVISAR: existen temporizadores y referencias de ruta. Hay que confirmar que la ruta NO se recalcule en cada tick.
+
+====================================================================================================
+7/8 PLAN DE OPTIMIZACIÓN PROPUESTO
+====================================================================================================
+No se modificó MIGO.
+
+Orden de optimización recomendado:
+1. UI inmediata: abrir LiveTrip sin esperar GPS/ruta.
+2. Mantener último GPS conocido mientras llega el primer fix nuevo.
+3. GPS: stream con distanceFilter y frecuencia razonable.
+4. No reconstruir todo GoogleMap con cada coordenada.
+5. No recalcular la ruta con cada actualización GPS.
+6. Recalcular solo por desvío significativo o cambio de etapa.
+7. Actualizar marcador de vehículo independientemente de la polyline.
+8. Probar después en Flutter profile/release, no solo debug.
+
+====================================================================================================
+8/8 REPORTE
+====================================================================================================
+
+RESUMEN MÁQUINA:
+FastAPI P95                  = 66.7 ms
+Emuladores detectados         = 2
+Flutter analyze               = OK
+GPS streams encontrados       = 2
+setState encontrados          = 145
+Timer.periodic encontrados    = 7
+Referencias de ruta           = 1
+
+MIGO MODIFICADO               = NO
+APK RECOMPILADO               = NO
+BACKEND MODIFICADO            = NO

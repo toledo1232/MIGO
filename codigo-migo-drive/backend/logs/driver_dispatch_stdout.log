@@ -1,0 +1,24 @@
+INFO:     127.0.0.1:61407 - "GET /api/v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61408 - "POST /api/v1/ride-requests HTTP/1.1" 201 Created
+INFO:     127.0.0.1:61409 - "POST /api/v1/ride-requests/f7faf19a-4be8-4c47-b9ff-84c9ae4681f8/accept HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61411 - "POST /api/v1/ride-requests HTTP/1.1" 201 Created
+INFO:     127.0.0.1:61412 - "POST /api/v1/ride-requests/f638a6b3-7e3b-484c-8ff8-a4c9d8722cbf/counter HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61413 - "POST /api/v1/ride-requests/f638a6b3-7e3b-484c-8ff8-a4c9d8722cbf/counter/accept HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61414 - "POST /api/v1/ride-requests HTTP/1.1" 201 Created
+INFO:     127.0.0.1:61410 - "GET /api/v1/ride-requests/681afa19-f505-4ab4-8059-c20e62ff0edc HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61415 - "POST /api/v1/ride-requests/f47885d5-ceea-468b-8b8e-eeff115c3308/counter HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61416 - "POST /api/v1/ride-requests/f47885d5-ceea-468b-8b8e-eeff115c3308/counter/reject HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61419 - "GET /api/v1/ride-requests/681afa19-f505-4ab4-8059-c20e62ff0edc HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61427 - "GET /api/v1/ride-requests/681afa19-f505-4ab4-8059-c20e62ff0edc HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61437 - "GET /api/v1/ride-requests/681afa19-f505-4ab4-8059-c20e62ff0edc HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61476 - "GET /api/v1/ride-requests/681afa19-f505-4ab4-8059-c20e62ff0edc HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61477 - "GET /api/v1/ride-requests/681afa19-f505-4ab4-8059-c20e62ff0edc HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61489 - "GET /api/v1/ride-requests/681afa19-f505-4ab4-8059-c20e62ff0edc HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61497 - "GET /api/v1/ride-requests/681afa19-f505-4ab4-8059-c20e62ff0edc HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61500 - "GET /api/v1/ride-requests/681afa19-f505-4ab4-8059-c20e62ff0edc HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61503 - "GET /api/v1/ride-requests/681afa19-f505-4ab4-8059-c20e62ff0edc HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61508 - "GET /api/v1/ride-requests/681afa19-f505-4ab4-8059-c20e62ff0edc HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61514 - "GET /api/v1/ride-requests/681afa19-f505-4ab4-8059-c20e62ff0edc HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61522 - "GET /api/v1/ride-requests/681afa19-f505-4ab4-8059-c20e62ff0edc HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61529 - "GET /api/v1/ride-requests/681afa19-f505-4ab4-8059-c20e62ff0edc HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61594 - "GET /api/v1/auth/me HTTP/1.1" 200 OK

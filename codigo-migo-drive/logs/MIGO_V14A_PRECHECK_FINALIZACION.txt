@@ -1,0 +1,184 @@
+
+====================================================================================================
+MIGO - V14A PRECHECK FINALIZACIÓN SINCRONIZADA
+====================================================================================================
+
+====================================================================================================
+1/8 PROTECCIÓN
+====================================================================================================
+Flutter modificado             = NO
+Backend modificado             = NO
+APK recompilado                = NO
+Créditos modificados           = NO
+Viajes modificados             = NO
+
+====================================================================================================
+2/8 CONDUCTOR - FINALIZACIÓN ACTUAL
+====================================================================================================
+Finalizar viaje                          = 2 -> líneas [1070, 1478]
+Solicitar finalizar                      = 1 -> líneas [1070]
+_finish                                  = 1 -> líneas [355]
+_complete                                = 0
+completion                               = 18 -> líneas [71, 153, 154, 338, 390, 407, 408, 412, 420, 444, 673, 675, 1057, 1088, 1105, 1459, 1485, 1501]
+completed                                = 15 -> líneas [208, 535, 667, 783, 827, 1043, 1061, 1073, 1097, 1181, 1272, 1275, 1303, 1397, 1546]
+arrival_reported                         = 11 -> líneas [152, 671, 672, 849, 1041, 1056, 1071, 1090, 1372, 1483, 1516]
+in_progress                              = 9 -> líneas [849, 1040, 1054, 1070, 1087, 1106, 1371, 1456, 1515]
+
+====================================================================================================
+3/8 FUNCIONES CONDUCTOR RELACIONADAS
+====================================================================================================
+Línea 20    _migoV13bAllowGpsUiUpdate
+  bool _migoV13bAllowGpsUiUpdate() {
+Línea 125   _startMigoInternetCall
+  Future<void> _startMigoInternetCall(
+Línea 140   initState
+  void initState() {
+Línea 167   dispose
+  void dispose() {
+Línea 177   _loadMarkerIcons
+  Future<void> _loadMarkerIcons() async {
+Línea 194   _openChat
+  Future<void> _openChat() async {
+Línea 207   _cancelTrip
+  Future<void> _cancelTrip() async {
+Línea 338   _confirmCompletion
+  Future<void> _confirmCompletion() async {
+Línea 375   _continueTripAfterFinishRequest
+  Future<void> _continueTripAfterFinishRequest() async {
+Línea 407   _showCompletionDialog
+  Future<void> _showCompletionDialog() async {
+Línea 479   _showSosAlert
+  Future<void> _showSosAlert(String actor) async {
+Línea 504   _connectRealtime
+  Future<void> _connectRealtime() async {
+Línea 531   _scheduleReconnect
+  void _scheduleReconnect() {
+Línea 643   _pollRide
+  Future<void> _pollRide() async {
+Línea 656   _applyRide
+  void _applyRide(Map<String, dynamic> ride, {bool forceRoute = false}) {
+Línea 782   _sendLocation
+  Future<void> _sendLocation(Position position, {bool force = false}) async {
+Línea 821   _refreshRoute
+  Future<void> _refreshRoute({bool force = false}) async {
+Línea 1078  _primaryAction
+  Future<void> _primaryAction() async {
+Línea 1105  _requestCompletion
+  Future<void> _requestCompletion() async {
+Línea 1141  _passengerAvatar
+  Widget _passengerAvatar() {
+Línea 1176  build
+  Widget build(BuildContext context) {
+Línea 1253  _statusCard
+  Widget _statusCard() {
+Línea 1329  _bottomCard
+  Widget _bottomCard() {
+
+====================================================================================================
+4/8 PASAJERO - FINALIZACIÓN ACTUAL
+====================================================================================================
+Finalizar viaje                          = 1 -> líneas [1386]
+Solicitar finalizar                      = 1 -> líneas [1386]
+_finish                                  = 1 -> líneas [562]
+_complete                                = 0
+completion                               = 18 -> líneas [67, 146, 147, 545, 582, 614, 631, 632, 636, 644, 668, 670, 874, 876, 1096, 1380, 1393, 1409]
+completed                                = 12 -> líneas [267, 336, 705, 863, 896, 1081, 1100, 1224, 1227, 1255, 1349, 1455]
+arrival_reported                         = 8 -> líneas [145, 872, 873, 917, 1079, 1095, 1391, 1424]
+in_progress                              = 6 -> líneas [546, 917, 1078, 1094, 1377, 1423]
+
+====================================================================================================
+4B/8 FUNCIONES PASAJERO RELACIONADAS
+====================================================================================================
+Línea 19    _migoV13bAllowGpsUiUpdate
+  bool _migoV13bAllowGpsUiUpdate() {
+Línea 117   _startMigoInternetCall
+  Future<void> _startMigoInternetCall(
+Línea 132   initState
+  void initState() {
+Línea 262   _sendPassengerLocation
+  Future<void> _sendPassengerLocation(
+Línea 305   _loadMarkerIcons
+  Future<void> _loadMarkerIcons() async {
+Línea 322   _openChat
+  Future<void> _openChat() async {
+Línea 335   _cancelTrip
+  Future<void> _cancelTrip() async {
+Línea 466   _triggerSos
+  Future<void> _triggerSos() async {
+Línea 493   _showSosAlert
+  Future<void> _showSosAlert(String actor) async {
+Línea 518   _showArrivedAlert
+  Future<void> _showArrivedAlert() async {
+Línea 545   _requestCompletion
+  Future<void> _requestCompletion() async {
+Línea 582   _confirmCompletion
+  Future<void> _confirmCompletion() async {
+Línea 614   _reportCompletionProblem
+  Future<void> _reportCompletionProblem() async {
+Línea 631   _showCompletionDialog
+  Future<void> _showCompletionDialog() async {
+Línea 674   _connectRealtime
+  Future<void> _connectRealtime() async {
+Línea 701   _scheduleReconnect
+  void _scheduleReconnect() {
+Línea 836   _pollRide
+  Future<void> _pollRide() async {
+Línea 849   _applyRide
+  void _applyRide(Map<String, dynamic> ride, {bool forceRoute = false}) {
+Línea 890   _refreshRoute
+  Future<void> _refreshRoute({bool force = false}) async {
+Línea 1205  _statusCard
+  Widget _statusCard() {
+Línea 1281  _bottomCard
+  Widget _bottomCard() {
+
+====================================================================================================
+5/8 ENDPOINTS FASTAPI REALES
+====================================================================================================
+GET                /api/v1/places/autocomplete
+POST               /api/v1/ride-requests/{request_id}/cancel
+POST               /api/v1/ride-requests/{request_id}/complete-request
+POST               /api/v1/ride-requests/{request_id}/complete
+POST               /api/v1/ride-requests/{request_id}/complete-confirm
+POST               /api/v1/ride-requests/{request_id}/complete-problem
+
+====================================================================================================
+6/8 ESTADOS + CRÉDITOS + HISTORIAL
+====================================================================================================
+"completed"                      = 3
+"in_progress"                    = 9
+"arrival_reported"               = 8
+completion_requested_at          = 8
+completion_requested_by          = 9
+completion_confirmed_by          = 10
+completed_at                     = 9
+credits_reserved                 = 15
+credits_consumed                 = 14
+credits_status                   = 14
+rating                           = 14
+history                          = 0
+trip_started_at                  = 0
+agreed_price                     = 0
+
+====================================================================================================
+7/8 VALIDACIÓN ACTUAL
+====================================================================================================
+flutter analyze = OK
+
+====================================================================================================
+8/8 RESULTADO
+====================================================================================================
+MIGO MODIFICADO                = NO
+APK RECOMPILADO                = NO
+BACKEND MODIFICADO             = NO
+
+Este reporte define exactamente qué debe tocar V14B.
+V14B objetivo:
+  1. solicitud sincronizada de finalización
+  2. confirmación del otro participante
+  3. completed solamente tras confirmación válida
+  4. consumo normal de créditos al completar
+  5. nunca enviar un viaje completado a revisión de cancelación
+  6. guardar precio/distancia/duración/fechas
+  7. preparar calificación mutua
+  8. preparar historial de viajes

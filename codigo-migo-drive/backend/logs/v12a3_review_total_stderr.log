@@ -1,0 +1,40 @@
+INFO:     Started server process [17172]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:58939 - "WebSocket /api/v1/ride-requests/ws/drivers" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:64854 - "WebSocket /api/v1/ride-requests/ws/request/b97c0041-09f3-4f68-ab63-4a1b29e0c180" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:53410 - "WebSocket /api/v1/ride-requests/ws/request/b97c0041-09f3-4f68-ab63-4a1b29e0c180" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:53422 - "WebSocket /api/v1/ride-requests/ws/request/b97c0041-09f3-4f68-ab63-4a1b29e0c180" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59738 - "WebSocket /api/v1/ride-requests/ws/drivers" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:56722 - "WebSocket /api/v1/ride-requests/ws/request/6adcde50-7846-4b47-8bc9-eb7c0a706bf7" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:56709 - "WebSocket /api/v1/ride-requests/ws/request/6adcde50-7846-4b47-8bc9-eb7c0a706bf7" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:56739 - "WebSocket /api/v1/ride-requests/ws/request/6adcde50-7846-4b47-8bc9-eb7c0a706bf7" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:62817 - "WebSocket /api/v1/ride-requests/ws/drivers" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:62818 - "WebSocket /api/v1/ride-requests/ws/drivers" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:54556 - "WebSocket /api/v1/ride-requests/ws/request/27de0d37-990e-4a49-b685-2290de019287" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:54560 - "WebSocket /api/v1/ride-requests/ws/request/27de0d37-990e-4a49-b685-2290de019287" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:54570 - "WebSocket /api/v1/ride-requests/ws/request/27de0d37-990e-4a49-b685-2290de019287" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:51229 - "WebSocket /api/v1/ride-requests/ws/drivers" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:51284 - "WebSocket /api/v1/ride-requests/ws/request/a6fb3e9c-b590-4d5d-a7fa-aa5d501f8f88" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:51303 - "WebSocket /api/v1/ride-requests/ws/request/a6fb3e9c-b590-4d5d-a7fa-aa5d501f8f88" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:51289 - "WebSocket /api/v1/ride-requests/ws/request/a6fb3e9c-b590-4d5d-a7fa-aa5d501f8f88" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57751 - "WebSocket /api/v1/ride-requests/ws/drivers" [accepted]
+INFO:     connection open

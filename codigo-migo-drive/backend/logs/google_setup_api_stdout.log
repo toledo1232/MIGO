@@ -1,0 +1,2 @@
+INFO:     127.0.0.1:56005 - "GET /api/v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56009 - "GET /api/v1/places/autocomplete?input=Plaza+de+Armas+Huaraz&lat=-9.52779&lng=-77.52778 HTTP/1.1" 502 Bad Gateway

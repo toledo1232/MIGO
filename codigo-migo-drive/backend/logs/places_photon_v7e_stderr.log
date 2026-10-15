@@ -1,0 +1,20 @@
+INFO:     Started server process [27484]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56507 - "WebSocket /api/v1/ride-requests/ws/drivers" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:53711 - "WebSocket /api/v1/ride-requests/ws/request/a0b740e2-5f55-4f94-93c1-cbcebaee8ddb" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:53725 - "WebSocket /api/v1/ride-requests/ws/request/a0b740e2-5f55-4f94-93c1-cbcebaee8ddb" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:53792 - "WebSocket /api/v1/ride-requests/ws/request/a0b740e2-5f55-4f94-93c1-cbcebaee8ddb" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:63897 - "WebSocket /api/v1/ride-requests/ws/request/a0b740e2-5f55-4f94-93c1-cbcebaee8ddb" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:54442 - "WebSocket /api/v1/ride-requests/ws/request/a0b740e2-5f55-4f94-93c1-cbcebaee8ddb" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:55242 - "WebSocket /api/v1/ride-requests/ws/request/a0b740e2-5f55-4f94-93c1-cbcebaee8ddb" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:64438 - "WebSocket /api/v1/ride-requests/ws/request/a0b740e2-5f55-4f94-93c1-cbcebaee8ddb" [accepted]
+INFO:     connection open

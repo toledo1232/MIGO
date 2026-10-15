@@ -1,0 +1,15 @@
+INFO:     127.0.0.1:55114 - "GET /api/v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55122 - "GET /api/v1/places/autocomplete?input=Plaza+de+Armas+Huaraz&lat=-9.52779&lng=-77.52778 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57955 - "GET /api/v1/auth/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:57955 - "POST /api/v1/auth/refresh HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49729 - "GET /api/v1/places/autocomplete?input=HUARAZ&lat=37.4219983&lng=-122.084 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49736 - "GET /api/v1/places/ChIJaZnWLw4NqZERvtZoZvIMlYk HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52749 - "GET /api/v1/places/autocomplete?input=MONTERREY&lat=-9.529453799999999&lng=-77.5291577 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52759 - "GET /api/v1/places/ChIJ-4tluf4NqZERheqEsWp-E7Q HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52912 - "GET /api/v1/places/autocomplete?input=PLAZA&lat=37.4219983&lng=-122.084 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52922 - "GET /api/v1/places/autocomplete?input=PLAZA+DE+ARMAS+HUARA&lat=37.4219983&lng=-122.084 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52924 - "GET /api/v1/places/autocomplete?input=PLAZA+DE+ARMAS+HUARAZ&lat=37.4219983&lng=-122.084 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52931 - "GET /api/v1/places/ChIJq606EhANqZERFw2Q3jsvvOw HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64937 - "GET /api/v1/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56715 - "GET /api/v1/places/autocomplete?input=MEGA&lat=-9.5294533&lng=-77.5291567 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56725 - "GET /api/v1/places/ChIJy6LJJg4NqZERLtS7AnoIdZI HTTP/1.1" 200 OK
