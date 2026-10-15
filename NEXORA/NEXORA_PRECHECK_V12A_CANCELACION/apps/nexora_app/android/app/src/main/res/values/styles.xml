@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style
+        name="LaunchTheme"
+        parent="@android:style/Theme.Light.NoTitleBar">
+
+        <item name="android:windowBackground">
+            @drawable/launch_background
+        </item>
+
+        <item name="android:windowLightStatusBar">
+            false
+        </item>
+
+        <item name="android:statusBarColor">
+            @color/nexora_deep_blue
+        </item>
+
+        <item name="android:navigationBarColor">
+            @color/nexora_deep_blue
+        </item>
+
+    </style>
+
+    <style
+        name="NormalTheme"
+        parent="@android:style/Theme.Light.NoTitleBar">
+
+        <item name="android:windowBackground">
+            @color/nexora_light_gray
+        </item>
+
+        <item name="android:statusBarColor">
+            @color/nexora_light_gray
+        </item>
+
+        <item name="android:navigationBarColor">
+            @color/nexora_light_gray
+        </item>
+
+    </style>
+
+</resources>

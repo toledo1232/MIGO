@@ -1,0 +1,6 @@
+﻿fastapi[standard]
+pydantic-settings
+pytest
+httpx
+PyJWT
+pwdlib[argon2]

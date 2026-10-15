@@ -1,0 +1,5 @@
+package com.nexoramove.nexora_move
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()

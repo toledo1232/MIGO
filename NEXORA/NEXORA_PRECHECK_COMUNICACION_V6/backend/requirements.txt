@@ -1,0 +1,9 @@
+﻿fastapi[standard]
+pydantic-settings
+pytest
+httpx
+PyJWT
+pwdlib[argon2]
+SQLAlchemy>=2.0,<3.0
+psycopg[binary]>=3.2,<4.0
+alembic>=1.16,<2.0

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Reemplaza SOLO el texto de abajo por tu clave Android de Google Maps. -->
+    <string name="google_maps_key" translatable="false">REEMPLAZA_CON_TU_GOOGLE_MAPS_ANDROID_KEY</string>
+</resources>
