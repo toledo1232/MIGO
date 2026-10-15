@@ -1,0 +1,178 @@
+ codigo-migo-drive/.editorconfig                    |   17 [32m+[m
+ codigo-migo-drive/.gitignore                       |   70 [32m+[m
+ codigo-migo-drive/.vscode/extensions.json          |    8 [32m+[m
+ codigo-migo-drive/.vscode/settings.json            |    9 [32m+[m
+ codigo-migo-drive/README.md                        |   42 [32m+[m
+ codigo-migo-drive/apps/nexora_app/.gitignore       |   46 [32m+[m
+ codigo-migo-drive/apps/nexora_app/.metadata        |   30 [32m+[m
+ codigo-migo-drive/apps/nexora_app/README.md        |    3 [32m+[m
+ .../apps/nexora_app/analysis_options.yaml          |    1 [32m+[m
+ .../apps/nexora_app/android/.gitignore             |   14 [32m+[m
+ .../apps/nexora_app/android/app/build.gradle.kts   |   45 [32m+[m
+ .../android/app/src/debug/AndroidManifest.xml      |    7 [32m+[m
+ .../android/app/src/main/AndroidManifest.xml       |   62 [32m+[m
+ .../com/nexoramove/nexora_move/MainActivity.kt     |    5 [32m+[m
+ .../drawable-nodpi/migo_launcher_foreground.png    |  Bin [31m0[m -> [32m54733[m bytes
+ .../drawable-nodpi/nexora_launcher_foreground.png  |  Bin [31m0[m -> [32m103733[m bytes
+ .../main/res/drawable-v21/launch_background.xml    |   12 [32m+[m
+ .../src/main/res/drawable/launch_background.xml    |   17 [32m+[m
+ .../src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   11 [32m+[m
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   11 [32m+[m
+ .../src/main/res/mipmap-anydpi-v33/ic_launcher.xml |   11 [32m+[m
+ .../res/mipmap-anydpi-v33/ic_launcher_round.xml    |   11 [32m+[m
+ .../app/src/main/res/mipmap-hdpi/ic_launcher.png   |  Bin [31m0[m -> [32m8719[m bytes
+ .../src/main/res/mipmap-hdpi/ic_launcher_round.png |  Bin [31m0[m -> [32m8719[m bytes
+ .../app/src/main/res/mipmap-mdpi/ic_launcher.png   |  Bin [31m0[m -> [32m4113[m bytes
+ .../src/main/res/mipmap-mdpi/ic_launcher_round.png |  Bin [31m0[m -> [32m4113[m bytes
+ .../app/src/main/res/mipmap-xhdpi/ic_launcher.png  |  Bin [31m0[m -> [32m14878[m bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.png    |  Bin [31m0[m -> [32m14878[m bytes
+ .../app/src/main/res/mipmap-xxhdpi/ic_launcher.png |  Bin [31m0[m -> [32m31011[m bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.png   |  Bin [31m0[m -> [32m31011[m bytes
+ .../src/main/res/mipmap-xxxhdpi/ic_launcher.png    |  Bin [31m0[m -> [32m51270[m bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.png  |  Bin [31m0[m -> [32m51270[m bytes
+ .../app/src/main/res/values-night/styles.xml       |   18 [32m+[m
+ .../android/app/src/main/res/values-v31/styles.xml |   36 [32m+[m
+ .../android/app/src/main/res/values/colors.xml     |   25 [32m+[m
+ .../android/app/src/main/res/values/strings.xml    |    4 [32m+[m
+ .../android/app/src/main/res/values/styles.xml     |   44 [32m+[m
+ .../src/main/res/xml/network_security_config.xml   |    5 [32m+[m
+ .../android/app/src/profile/AndroidManifest.xml    |    7 [32m+[m
+ .../apps/nexora_app/android/build.gradle.kts       |   24 [32m+[m
+ .../apps/nexora_app/android/gradle.properties      |    6 [32m+[m
+ .../gradle/wrapper/gradle-wrapper.properties       |    5 [32m+[m
+ .../apps/nexora_app/android/settings.gradle.kts    |   26 [32m+[m
+ .../apps/nexora_app/assets/branding/README.txt     |   13 [32m+[m
+ .../assets/branding/migo_app_icon_foreground.png   |  Bin [31m0[m -> [32m54733[m bytes
+ .../assets/branding/migo_app_icon_source.png       |  Bin [31m0[m -> [32m326570[m bytes
+ .../assets/branding/migo_brand_banner.png          |  Bin [31m0[m -> [32m229047[m bytes
+ .../assets/branding/migo_brand_reference.png       |  Bin [31m0[m -> [32m1461627[m bytes
+ .../assets/branding/migo_logo_vertical.png         |  Bin [31m0[m -> [32m113794[m bytes
+ .../nexora_app/assets/branding/migo_symbol.png     |  Bin [31m0[m -> [32m45347[m bytes
+ .../assets/branding/nexora_app_icon_foreground.png |  Bin [31m0[m -> [32m103733[m bytes
+ .../assets/branding/nexora_app_icon_source.png     |  Bin [31m0[m -> [32m326910[m bytes
+ .../assets/branding/nexora_brand_reference.png     |  Bin [31m0[m -> [32m949009[m bytes
+ .../assets/branding/nexora_logo_horizontal.png     |  Bin [31m0[m -> [32m279771[m bytes
+ .../assets/branding/nexora_play_store_512.png      |  Bin [31m0[m -> [32m228839[m bytes
+ .../nexora_app/assets/branding/nexora_symbol.png   |  Bin [31m0[m -> [32m88357[m bytes
+ .../apps/nexora_app/assets/payments/efectivo.png   |  Bin [31m0[m -> [32m22408[m bytes
+ .../apps/nexora_app/assets/payments/plin.jpg       |  Bin [31m0[m -> [32m15503[m bytes
+ .../apps/nexora_app/assets/payments/yape.png       |  Bin [31m0[m -> [32m160371[m bytes
+ codigo-migo-drive/apps/nexora_app/lib/app.dart     |  190 [32m+[m
+ .../apps/nexora_app/lib/app/app_session.dart       |  174 [32m+[m
+ .../nexora_app/lib/core/network/api_config.dart    |    8 [32m+[m
+ .../lib/core/storage/auth_secure_storage.dart      |   32 [32m+[m
+ .../lib/features/account/mode_account_view.dart    |  251 [32m++[m
+ .../lib/features/authentication/data/auth_api.dart |  180 [32m+[m
+ .../authentication/data/auth_repository.dart       |   99 [32m+[m
+ .../authentication/login/login_screen.dart         |  212 [32m++[m
+ .../authentication/models/auth_session.dart        |   48 [32m+[m
+ .../features/authentication/models/migo_user.dart  |   28 [32m+[m
+ .../authentication/register/register_screen.dart   |  276 [32m++[m
+ .../lib/features/driver/home/driver_home_view.dart |  438 [32m+++[m
+ .../driver/live_trip/driver_live_trip_screen.dart  | 1566 [32m++++++++[m
+ .../driver/realtime/driver_realtime_host.dart      |  932 [32m+++++[m
+ .../driver/requests/driver_requests_view.dart      |  772 [32m++++[m
+ .../features/passenger/home/driver_home_view.dart  |  224 [32m++[m
+ .../passenger/home/passenger_home_view.dart        |  145 [32m+[m
+ .../live_trip/passenger_live_trip_screen.dart      | 1476 [32m++++++++[m
+ .../immediate_ride_request_screen.dart             | 1232 [32m+++++++[m
+ .../ride_request/searching_driver_screen.dart      |  992 [32m++++++[m
+ .../lib/features/shared/live_trip_support.dart     |  363 [32m++[m
+ .../lib/features/shared/live_trip_tools.dart       | 1232 [32m+++++++[m
+ .../lib/features/shared/migo_voice_call.dart       | 1309 [32m+++++++[m
+ .../lib/features/shell/nexora_shell.dart           |  313 [32m++[m
+ .../lib/features/welcome/welcome_screen.dart       |  207 [32m++[m
+ codigo-migo-drive/apps/nexora_app/lib/main.dart    |    9 [32m+[m
+ .../apps/nexora_app/migo_build_error.txt           |  Bin [31m0[m -> [32m6402[m bytes
+ codigo-migo-drive/apps/nexora_app/pubspec.lock     | 1057 [32m++++++[m
+ codigo-migo-drive/apps/nexora_app/pubspec.yaml     |   36 [32m+[m
+ codigo-migo-drive/apps/nexora_app/run_migo.ps1     |   34 [32m+[m
+ .../apps/nexora_app/test/widget_test.dart          |   34 [32m+[m
+ .../apps/nexora_app/widget_test_error.txt          |  Bin [31m0[m -> [32m8578[m bytes
+ codigo-migo-drive/backend/alembic.ini              |   37 [32m+[m
+ codigo-migo-drive/backend/alembic/env.py           |   63 [32m+[m
+ codigo-migo-drive/backend/alembic/script.py.mako   |   25 [32m+[m
+ .../backend/alembic/versions/0001_users.py         |   98 [32m+[m
+ .../backend/alembic/versions/0002_user_sessions.py |  120 [32m+[m
+ codigo-migo-drive/backend/app/__init__.py          |    0
+ codigo-migo-drive/backend/app/api/__init__.py      |    0
+ codigo-migo-drive/backend/app/api/dependencies.py  |   81 [32m+[m
+ codigo-migo-drive/backend/app/api/v1/__init__.py   |    0
+ .../backend/app/api/v1/endpoints/__init__.py       |    0
+ .../backend/app/api/v1/endpoints/auth.py           |  242 [32m++[m
+ .../backend/app/api/v1/endpoints/health.py         |   30 [32m+[m
+ .../backend/app/api/v1/endpoints/places.py         |  157 [32m+[m
+ .../backend/app/api/v1/endpoints/ride_requests.py  | 1869 [32m++++++++++[m
+ .../backend/app/api/v1/endpoints/routes.py         |  134 [32m+[m
+ codigo-migo-drive/backend/app/api/v1/router.py     |   20 [32m+[m
+ codigo-migo-drive/backend/app/core/__init__.py     |    0
+ codigo-migo-drive/backend/app/core/config.py       |   26 [32m+[m
+ codigo-migo-drive/backend/app/core/database.py     |   32 [32m+[m
+ codigo-migo-drive/backend/app/core/security.py     |  103 [32m+[m
+ codigo-migo-drive/backend/app/main.py              |   24 [32m+[m
+ codigo-migo-drive/backend/app/models/__init__.py   |    7 [32m+[m
+ codigo-migo-drive/backend/app/models/session.py    |   88 [32m+[m
+ codigo-migo-drive/backend/app/models/user.py       |   75 [32m+[m
+ .../backend/app/repositories/sessions.py           |  122 [32m+[m
+ .../backend/app/repositories/users.py              |   85 [32m+[m
+ codigo-migo-drive/backend/app/schemas/auth.py      |   97 [32m+[m
+ codigo-migo-drive/backend/app/services/auth.py     |  205 [32m++[m
+ codigo-migo-drive/backend/logs/api_stderr.log      |    4 [32m+[m
+ codigo-migo-drive/backend/logs/api_stdout.log      |    7 [32m+[m
+ .../backend/logs/comunicacion_v6_stderr.log        |    6 [32m+[m
+ .../backend/logs/comunicacion_v6_stdout.log        |    7 [32m+[m
+ .../backend/logs/driver_dispatch_stderr.log        |    4 [32m+[m
+ .../backend/logs/driver_dispatch_stdout.log        |   24 [32m+[m
+ .../backend/logs/google_places_fix_stderr.log      |    4 [32m+[m
+ .../backend/logs/google_places_fix_stdout.log      |   15 [32m+[m
+ .../backend/logs/google_setup_api_stderr.log       |    4 [32m+[m
+ .../backend/logs/google_setup_api_stdout.log       |    2 [32m+[m
+ .../backend/logs/live_trip_v3_stderr.log           |   22 [32m+[m
+ .../backend/logs/live_trip_v3_stdout.log           |  398 [32m+++[m
+ .../backend/logs/photon_fallback_stderr.log        |    4 [32m+[m
+ .../backend/logs/photon_fallback_stdout.log        |   19 [32m+[m
+ .../backend/logs/places_photon_v7e_stderr.log      |   20 [32m+[m
+ .../backend/logs/places_photon_v7e_stdout.log      | 3760 [32m++++++++++++++++++++[m
+ .../backend/logs/realtime_profiles_stderr.log      |   22 [32m+[m
+ .../backend/logs/realtime_profiles_stdout.log      |   49 [32m+[m
+ .../backend/logs/ride_request_stderr.log           |    4 [32m+[m
+ .../backend/logs/ride_request_stdout.log           |  301 [32m++[m
+ .../backend/logs/routes_gps_stderr.log             |   12 [32m+[m
+ .../backend/logs/routes_gps_stdout.log             |   12 [32m+[m
+ .../backend/logs/trip_details_stderr.log           |    4 [32m+[m
+ .../backend/logs/trip_details_stdout.log           | 1319 [32m+++++++[m
+ .../backend/logs/v10_routes_stderr.log             |   22 [32m+[m
+ .../backend/logs/v10_routes_stdout.log             |  238 [32m++[m
+ .../backend/logs/v11b_webrtc_stderr.log            |   30 [32m+[m
+ .../backend/logs/v11b_webrtc_stdout.log            | 2404 [32m+++++++++++++[m
+ .../backend/logs/v12a3_review_total_stderr.log     |   40 [32m+[m
+ .../backend/logs/v12a3_review_total_stdout.log     |  152 [32m+[m
+ .../backend/logs/v12a_cancelacion_stderr.log       |    6 [32m+[m
+ .../backend/logs/v12a_cancelacion_stdout.log       |    0
+ codigo-migo-drive/backend/logs/v14b_stderr.log     |    4 [32m+[m
+ codigo-migo-drive/backend/logs/v14b_stdout.log     |    0
+ codigo-migo-drive/backend/logs/v9b_stderr.log      |   24 [32m+[m
+ codigo-migo-drive/backend/logs/v9b_stdout.log      |  199 [32m++[m
+ codigo-migo-drive/backend/requirements.txt         |    9 [32m+[m
+ codigo-migo-drive/backend/tests/__init__.py        |    0
+ codigo-migo-drive/backend/tests/conftest.py        |   71 [32m+[m
+ codigo-migo-drive/backend/tests/test_auth.py       |  152 [32m+[m
+ codigo-migo-drive/backend/tests/test_health.py     |   27 [32m+[m
+ codigo-migo-drive/backend/tests/test_sessions.py   |  175 [32m+[m
+ .../logs/MIGO_V13A_DIAGNOSTICO_RENDIMIENTO.txt     |  101 [32m+[m
+ .../logs/MIGO_V14A_PRECHECK_FINALIZACION.txt       |  184 [32m+[m
+ codigo-migo-drive/packages/nexora_ui/.gitignore    |   31 [32m+[m
+ codigo-migo-drive/packages/nexora_ui/.metadata     |   10 [32m+[m
+ codigo-migo-drive/packages/nexora_ui/CHANGELOG.md  |    3 [32m+[m
+ codigo-migo-drive/packages/nexora_ui/LICENSE       |    1 [32m+[m
+ codigo-migo-drive/packages/nexora_ui/README.md     |   39 [32m+[m
+ .../packages/nexora_ui/analysis_options.yaml       |    4 [32m+[m
+ .../packages/nexora_ui/lib/nexora_ui.dart          |    4 [32m+[m
+ .../nexora_ui/lib/src/brand/migo_brand.dart        |   16 [32m+[m
+ .../nexora_ui/lib/src/brand/nexora_brand.dart      |   13 [32m+[m
+ .../nexora_ui/lib/src/brand/nexora_brand_mark.dart |   35 [32m+[m
+ .../nexora_ui/lib/src/theme/nexora_colors.dart     |   42 [32m+[m
+ .../nexora_ui/lib/src/theme/nexora_theme.dart      |   84 [32m+[m
+ codigo-migo-drive/packages/nexora_ui/pubspec.yaml  |   54 [32m+[m
+ .../packages/nexora_ui/test/nexora_ui_test.dart    |    9 [32m+[m
+ 177 files changed, 28460 insertions(+)
